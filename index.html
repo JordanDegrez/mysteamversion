@@ -18,88 +18,97 @@
                 <div id="menu-img-profil">
                     <a href="#"><img src="./elements/medias/img-profil.jpg" alt="image de profil"></a>
                 </div>
-                <h1>Tétraodon</h1>
+                <h1><a class="menu" id="menu-user" onclick="afficheMenu(this)" href="#">Tétraodon</a></h1>
+                <div id="sousmenu-user" style="display:none">
+                    <div class="sousmenu">
+                        <a href="#">Acitivité</a>
+                    </div>
+                    <div class="sousmenu">
+                        <a href="#">Profil</a>
+                    </div>
+                    <div class="sousmenu">
+                        <a href="#">Contacts</a>
+                    </div>
+                    <div class="sousmenu">
+                        <a href="#">Groupes</a>
+                    </div>
+                    <div class="sousmenu">
+                        <a href="#">Contenus</a>
+                    </div>
+                    <div class="sousmenu">
+                        <a href="#">Badges</a>
+                    </div>
+                    <div class="sousmenu">
+                        <a href="#">Inventaire</a>
+                    </div>
+                </div>
                 <nav>
                     <ul>
-                        <li><a href="#"><img src="./elements/medias/icons/icon_msg.svg" alt="messages"></a></li>
-                        <li><a href="#"><img src="./elements/medias/icons/icon_notif.svg" alt="notifications"></a></li>
+                        <li><a href="#"><img src="./elements/medias/icons/icon_msg.svg" alt="messages"><span>Messages</span></a></li>
+                        <li><a href="#"><img src="./elements/medias/icons/icon_notif.svg" alt="notifications"><span>Notifications</span></a></li>
                     </ul>
                 </nav>
             </section>
             <section id="menu-shop-library-section">
                 <nav>
                     <ul>
-                        <li><a href="#"><img src="./elements/medias/icons/icon_store.svg" alt="magasin"></a></li>
-                        <li><a href="#"><img src="./elements/medias/icons/icon_controller.svg" alt="bibliothèque"></a></li>
-                        <li><a href="#"><img src="./elements/medias/icons/icon_community.svg" alt="messages"></a></li>
+                        <li><a class="menu" id="menu-magasin" onclick="afficheMenu(this)" href="#"><img src="./elements/medias/icons/icon_store.svg" alt="magasin"><span>Magasin</span></a></li>
+                        <div id="sousmenu-magasin" style="display:none">
+                            <div class="sousmenu">
+                                <a href="#">À la une</a>
+                            </div>
+                            <div class="sousmenu">
+                                <a href="#">Liste de découvertes</a>
+                            </div>
+                            <div class="sousmenu">
+                                <a href="#">Liste de souhaits</a>
+                            </div>
+                            <div class="sousmenu">
+                                <a href="#">Boutique des points</a>
+                            </div>
+                            <div class="sousmenu">
+                                <a href="#">Actualités</a>
+                            </div>
+                            <div class="sousmenu">
+                                <a href="#">Statistiques</a>
+                            </div>
+                        </div>
+
+                        <li><a class="menu" id="menu-bibliotheque" onclick="afficheMenu(this)" href="#"><img src="./elements/medias/icons/icon_controller.svg" alt="bibliothèque"><span>Bibliothèque</span></a></li>
+                        <div id="sousmenu-bibliotheque" style="display:none">
+                            <div class="sousmenu">
+                                <a href="#">Accueil</a>
+                            </div>
+                            <div class="sousmenu">
+                                <a href="#">Collections</a>
+                            </div>
+                            <div class="sousmenu">
+                                <a href="#">Téléchargements</a>
+                            </div>
+                        </div>
+                        
+                        <li><a class="menu" id="menu-communaute" onclick="afficheMenu(this)"  href="#"><img src="./elements/medias/icons/icon_community.svg" alt="communauté"><span>Communauté</span></a></li>
+                        <div id="sousmenu-communaute" style="display:none">
+                            <div class="sousmenu">
+                                <a href="#">Accueil</a>
+                            </div>
+                            <div class="sousmenu">
+                                <a href="#">Discussions</a>
+                            </div>
+                            <div class="sousmenu">
+                                <a href="#">Workshop</a>
+                            </div>
+                            <div class="sousmenu">
+                                <a href="#">Marché</a>
+                            </div>
+                            <div class="sousmenu">
+                                <a href="#">Diffusions</a>
+                            </div>
+                        </div>
                     </ul>
                 </nav>
             </section>
         </div>
-         <!--partie pour le button qui ouvre et ferme le menu-->
-         <div id="glob-menu-button-more">
-            <button id="button-menu-more"><img src="./elements/medias/icons/icon_arrow_forward_slide.svg" alt=""></button>
-        </div>
     </header>
-
-    <div id="menu">
-        <div class="menu" id="menu1" onclick="afficheMenu(this)">
-            <a href="#">Menu 1</a>
-        </div>
-        <div id="sousmenu1" style="display:none">
-            <div class="sousmenu">
-                <a href="#">Sous-Menu 1.1</a>
-            </div>
-            <div class="sousmenu">
-                <a href="#">Sous-Menu 1.2</a>
-            </div>
-            <div class="sousmenu">
-                <a href="#">Sous-Menu 1.3</a>
-            </div>
-            <div class="sousmenu">
-                <a href="#">Sous-Menu 1.4</a>
-            </div>
-        </div>
-        
-        <div class="menu" id="menu2" onclick="afficheMenu(this)">
-            <a href="#">Menu 2</a>
-        </div>
-        <div id="sousmenu2" style="display:none">
-            <div class="sousmenu">
-                <a href="#">Sous-Menu 2.1</a>
-            </div>
-            <div class="sousmenu">
-                <a href="#">Sous-Menu 2.2</a>
-            </div>
-            <div class="sousmenu">
-                <a href="#">Sous-Menu 2.3</a>
-            </div>
-        </div>
-        
-        <div class="menu" id="menu3" onclick="afficheMenu(this)">
-            <a href="#">Menu 3</a>
-        </div>
-        
-        <div class="menu" id="menu4" onclick="afficheMenu(this)">
-            <a href="#">Menu 4</a>
-        </div>
-        <div id="sousmenu4" style="display:none">
-            <div class="sousmenu">
-                <a href="#" >Sous-Menu 4.1</a>
-            </div>
-            <div class="sousmenu">
-                <a href="#">Sous-Menu 4.2</a>
-            </div>
-            <div class="sousmenu">
-                <a href="#">Sous-Menu 4.3</a>
-            </div>
-            <div class="sousmenu">
-                <a href="#">Sous-Menu 4.4</a>
-            </div>
-            <div class="sousmenu">
-                <a href="#">Sous-Menu 4.5</a>
-            </div>
-        </div>
-    </div>
 </body>
 </html>

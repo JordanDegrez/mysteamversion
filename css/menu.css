@@ -2,32 +2,17 @@ header{
     position: fixed;
     min-height: 100vh;
     display: flex;
-    max-width: 100px;
+    max-width: 350px;
     width: 290px;
     padding: 30px 0 30px 30px;
     background-color: var(--theme-background);
-}
-#glob-menu-button-more{
-    max-width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#button-menu-more{
-    background: none;
-    border: none;
-    width: 100%;
-    height: 100%;
-}
-#button-menu-more img{
-    max-width: 30px;
 }
 #glob-menu-others{
     width: 100%;
 }
 #menu-img-profil{
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 120px;
+    max-height: 120px;
     overflow: hidden;
     border:solid 1px var(--theme-background);
     transition: all .5s;
@@ -43,10 +28,10 @@ header{
     object-fit: cover;
     position: relative;
     left: -20px;
-    max-height: 100px;
-    max-width: 100px;
-    min-height: 100px;
-    min-width: 100px;
+    max-height: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    min-width: 150px;
 }
 header nav ul li{
     list-style: none;
