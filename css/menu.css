@@ -7,6 +7,11 @@ header{
     padding: 30px 0 30px 30px;
     background-color: var(--theme-background);
 }
+header a{
+    text-decoration: none;
+    color: var(--blanc);
+    line-height: 1.2;
+}
 #glob-menu-others{
     width: 100%;
 }
