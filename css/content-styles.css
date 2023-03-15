@@ -2,7 +2,7 @@
     font-family: 'Rubik_regular';
     line-height: 1;
 }
-body, header{
+body{
     padding: 0;
     margin: 0;
     background-color: var(--theme-primary);
