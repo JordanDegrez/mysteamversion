@@ -1,0 +1,14 @@
+*{
+    font-family: 'Rubik_regular';
+    line-height: 1;
+}
+body, header{
+    padding: 0;
+    margin: 0;
+    background-color: var(--theme-primary);
+    color: var(--blanc);
+}
+.container1600{
+    max-width: 1600px;
+    margin: 0 auto;
+}

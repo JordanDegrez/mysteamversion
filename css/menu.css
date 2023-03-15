@@ -1,0 +1,28 @@
+header{
+    position: fixed;
+    height: 100vh;
+    width: 350px;
+    background-color: violet;
+}
+
+#menu-img-profil{
+    max-width: 120px;
+    max-height: 120px;
+    overflow: hidden;
+    border:solid 1px var(--theme-background);
+    transition: all .5s;
+}
+#menu-img-profil:hover{
+    transition: all .5s;
+    border-radius: 50%;
+    transform: scale(1.02);
+    -webkit-box-shadow: 3px 3px 7px 3px #03a8f480; 
+    box-shadow: 3px 3px 7px 3px #03a8f480;
+}
+#menu-img-profil img{
+    object-fit: cover;
+    max-height: 120px;
+    max-width: 120px;
+    min-height: 120px;
+    min-width: 120px;
+}
