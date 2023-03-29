@@ -5,10 +5,25 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: var(--theme-primary);
+    background-color: var(--body-color);
     color: var(--blanc);
 }
-.container1600{
-    max-width: 1600px;
+.container{
+    width: 90%;
     margin: 0 auto;
+}
+#middle{
+    width: calc(100% - 320px);
+    position: relative;
+    left: 320px;    
+}
+#menu-glob-magasin ul{
+    background-color: var(--theme-background);
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#menu-glob-magasin ul li a{
+    text-decoration: none;
+    color: var(--blanc);
 }
